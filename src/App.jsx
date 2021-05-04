@@ -3,7 +3,7 @@ import Heading from './Heading'
 
 class App extends Component {
   return
-  <Heading />
+  <Heading />,
 }
 
 export default App;
