@@ -8,7 +8,7 @@ function Greets() {
     alert("Good morning 🌄");
   } else if ((userTime => secondHour) && (userTime < thirdHour)) {
     alert("Good Afternoon");
-  } else if ((userTime => thirdHour)  (userTime < firstHour)) {
+  } else if ((userTime => thirdHour) && (userTime < firstHour)) {
     alert("Good Evening 🌃");
   } else {
     alert("Sorry 😐 for the technical issue.");
