@@ -7,7 +7,7 @@ class Heading extends Component {
   render() {
     return (
       <>
-      <h1>Hello user{Greets()}</h1> < />
+      <h1>Hello user, website is still on development.{Greets()}</h1> < />
     );
   }
 }
