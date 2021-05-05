@@ -1,10 +1,15 @@
 import React, {
   Component
 } from 'react';
+import Greets from './Greet';
 
 class Heading extends Component {
-  return
-  <h1>Hello World!</h1>
-};
+  render() {
+    return (
+      <>
+      <h1>Hello user{Greets()}</h1> < />
+    );
+  }
+}
 
 export default Heading;
